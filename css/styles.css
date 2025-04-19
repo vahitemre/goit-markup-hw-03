@@ -1,4 +1,4 @@
-header > a {
+#logo {
     font-weight: bold;
     font-family: "raleway", sans-serif;
     color: #434455;
@@ -6,6 +6,7 @@ header > a {
     line-height: 1.5;
     letter-spacing: 0.03em;
 }
+
 
 body{
     font-family: "roboto", sans-serif;
@@ -16,11 +17,16 @@ body{
     letter-spacing: 0.02em;
 }
 
-nav{
-        font-family: "roboto", sans-serif;
-        color: #2E2F42;
-        font-weight: 500;
 
+.page-nav {
+    font-family: "roboto", sans-serif;
+    color: #2E2F42;
+    font-weight: 500;
+    display: flex;
+}
+
+.address .link{
+    display: flex;
 }
 
 footer {
@@ -35,12 +41,6 @@ footer {
 footer p {
     color: #ffffff;
     font-weight: normal;
-}
-
-footer a {
-    color: #ffffff;
-    font-family: "raleway", sans-serif;
-    
 }
 
 .heroimage {
@@ -99,6 +99,8 @@ a:focus{
 }
 
 ul{
+    padding: 10px 10px;
+    margin: 0;
     list-style-type: none;
 }
 
@@ -106,3 +108,16 @@ button:hover,
 button:focus{
     background-color: #404BBF;
 }
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.page-nav .link {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+

@@ -38,6 +38,7 @@ ul {
 header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #2e2f42;
 
 }
 
@@ -46,7 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;;
+    margin: auto;
 }
 
 #logo {

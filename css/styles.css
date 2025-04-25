@@ -215,20 +215,19 @@ h2 {
 }
 
 #portfolio{
-    margin: 72px;
+    margin-top: 72px;
 }
 
 .portfolio {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     padding-bottom: 40px;
+    width: 1440px;
 }
 
-.portfolio :not(:first-child){
-
-}
 
 .portfolio li {
     background-color: #fff;

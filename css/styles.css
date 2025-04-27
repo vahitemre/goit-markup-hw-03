@@ -34,6 +34,7 @@ ul {
     display: flex;
 }
 
+
 /* Header */
 header {
     display: flex;
@@ -113,6 +114,8 @@ nav {
     color: #fff;
     text-align: center;
     padding: 120px 0;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .heroimage h1 {
@@ -150,6 +153,8 @@ nav {
     display: flex;
     justify-content: center;
     gap: 24px;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .features li {
@@ -274,13 +279,20 @@ footer {
     padding: 40px 70px;
 }
 
-footer #logo {
+.cont-footer {
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #fff;
     letter-spacing: 0.03em;
     text-decoration: none;
+    
 }
 
 footer p {
